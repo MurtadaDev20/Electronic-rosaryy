@@ -44,6 +44,14 @@ span.text-center {
     font-size: 17px;
     border-radius: 10px;
 }
+@media (max-width: 630px) {
+  .text-center h1 {
+      font-size: 35px;
+  }
+  .text-center button {
+      margin-left: 23px;
+  }
+}
 .text-center button:hover {
     background-color: rgba(255, 0, 0, 0.623);
 }
@@ -164,7 +172,20 @@ span.text-center {
 }
 @media (max-width: 630px) {
   .count button {
-    padding: 40px;
+    padding: 30px;
+    display: block;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: white;
+    color: blueviolet;
+    border: none;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+    left: 50%;
+    transform: translateX(-50%);
   }
 }
 .count button .about {
@@ -179,7 +200,7 @@ span.text-center {
 }
 @media (max-width: 630px) {
   .count button .about {
-    padding: 74px 77px;
+    padding: 70px 77px;
     border-radius: 58px;
   }
 }
