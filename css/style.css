@@ -82,7 +82,7 @@ span.text-center {
 @media (max-width:630px) {
     
     .container { 
-        width: 300px;
+        width: 240px;
     }
 }
 .concat {
@@ -107,8 +107,8 @@ span.text-center {
 @media (max-width:630px) {
     .concat .open,
     .concat .zahra {
-        padding: 20px;
-        font-size: 20px;
+        padding: 17px;
+        font-size: 14px;
     }
 }
 .concat .open{
@@ -130,7 +130,7 @@ span.text-center {
 }
 @media (max-width:630px) {
     .count {
-        width: 300px;
+        width: 240px;
     }
 }
 .count span {
@@ -162,6 +162,11 @@ span.text-center {
     left: 50%;
     transform: translateX(-50%);
 }
+@media (max-width: 630px) {
+  .count button {
+    padding: 40px;
+  }
+}
 .count button .about {
     position: absolute;
     width: 100%;
@@ -171,6 +176,12 @@ span.text-center {
     padding: 95px 95px;
     z-index: 3;
     border-radius: 70px;
+}
+@media (max-width: 630px) {
+  .count button .about {
+    padding: 74px 77px;
+    border-radius: 58px;
+  }
 }
 .count button:hover
 {
